@@ -15,7 +15,7 @@ export const Overview = () => {
           stream a JSON object without specifying a schema. This is useful when
           you may not know the structure of the object in advance.
         </p>
-        <p>
+        {/* <p>
           {" "}
           Learn more about the{" "}
           <Link
@@ -26,7 +26,7 @@ export const Overview = () => {
             no-schema{" "}
           </Link>
           output mode from Vercel AI SDK.
-        </p>
+        </p> */}
       </div>
     </div>
   );

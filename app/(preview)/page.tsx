@@ -7,6 +7,7 @@ import { Code } from "@/components/code";
 import { useWindowSize } from "react-use";
 import { Overview } from "@/components/overview";
 import { z } from "zod";
+import Link from "next/link";
 
 export default function Home() {
   const [prompt, setPrompt] = useState<string>("");
@@ -91,6 +92,11 @@ export default function Home() {
               >
                 {isLoading ? "Generating..." : "Submit"}
               </button>
+              <Link href="https://proofofme.fun">
+                <button>
+                  Back to Web
+                </button>
+              </Link>
             </div>
           </form>
         </div>

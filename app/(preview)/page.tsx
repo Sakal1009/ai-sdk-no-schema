@@ -92,11 +92,13 @@ export default function Home() {
               >
                 {isLoading ? "Generating..." : "Submit"}
               </button>
-              <Link href="https://proofofme.fun">
-                <button>
-                  Back to Web
-                </button>
-              </Link>
+              <div className="flex flex-row justify-end w-full">
+                <Link href="https://proofofme.fun">
+                  <button>
+                    Back to Web
+                  </button>
+                </Link>
+              </div>
             </div>
           </form>
         </div>

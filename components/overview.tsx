@@ -6,14 +6,14 @@ export const Overview = () => {
     <div key="overview" className="w-full">
       <div className="border rounded-lg p-6 flex flex-col gap-4 text-zinc-500 text-sm dark:text-zinc-400 dark:border-zinc-700">
         <p className="flex flex-row justify-center gap-4 items-center text-zinc-900 dark:text-zinc-50">
-          <VercelIcon />
+          PoM
           <span>+</span>
           <ObjectIcon />
         </p>
         <p>
-          The no-schema output mode of the streamObject function allows you to
-          stream a JSON object without specifying a schema. This is useful when
-          you may not know the structure of the object in advance.
+        The no-schema output mode of the PoM Unified API allows you to{" "}
+        stream data objects without needing to predefine their structure. This is ideal{" "}
+        for AI workflows where the data format may vary or be unknown in advance, offering flexibility and adaptability for developers.
         </p>
         {/* <p>
           {" "}
